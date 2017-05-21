@@ -1,0 +1,21 @@
+HW 1 COMP 431
+*************
+-simple recursive descent parser
+-create function for every element in grammar
+-tokenize input
+-parse for whitespace (pass string and current position)
+  -did it genereate error?
+
+
+def parseMailCommand(string, current_position, ...):
+  if (token != "MAIL"): print "ERROR -- mial-from-cmd"
+    return 0
+  if (parseWhiteSpace(string, current_position,...) == 0)
+    return 0
+  if (token != "FROM:"): print "ERROR -- mail-from-cmd"
+    return 0
+
+-usually errors when parsing grammar occur when encountering literal character
+  -Ex. MAIL FROM: <jeffay@cs.unc.edu >
+       ERROR -- path because <path> ::= "<" <mailbox> ">" is expecting ">" not 
+         new line character.

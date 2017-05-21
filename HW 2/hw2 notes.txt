@@ -1,0 +1,15 @@
+HW 2 NOTES
+**********
+-Goal is to parse SMTP "RCPT TO" and "DATA" commands
+
+-Specify how you will handle sequencing errors in state-machine (restart, ignore, etc.)
+	MAIL FROM: <kajsdf@blah.com>
+	RCPT TO: <ahfh@balah.ocm>
+	MAIL FROM: <kajhf@kaj.com>    ----> Sequencing error here. (just restart it OR wait for correct command, in this case DATA)
+	DATA
+	...
+	.
+
+-Process commands indefinitely until "end of file"
+
+-Syntax error takes precedence over out-of-order, out-of-order precedence over parameter errors

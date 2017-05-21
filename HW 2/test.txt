@@ -1,0 +1,10 @@
+MAIL FROM: <hmali@live.unc.edu>
+RCPT TO: <hmali@live.unc.edu>
+RCPT TO: <yaboy@email.com>
+RCPT TO: <dad@dad.com>
+DATA
+This is a test message to see if the data command works.
+As well as the whole email thing too.
+
+This is a test.
+.

@@ -1,0 +1,5 @@
+HW 3 Notes
+***********
+-parse forward file and generate commands to send file (client side processing, generating SMTP
+ commands)
+-pipe hw 2 output to test hw 3

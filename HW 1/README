@@ -1,0 +1,9 @@
+To run properly, a file containing all the test cases must be input into the
+program via the command line.
+
+For example:
+python Parse.py test_cases.txt
+
+where test_cases.txt is a file with a test mail-from command on every new line.
+
+Thanks!
